@@ -6,14 +6,18 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroComponent } from './hero/hero.component';
-import { FooterComponent } from './footer/footer.component'
+import { FooterComponent } from './footer/footer.component';
+import { BioComponent } from './bio/bio.component';
+import { ProjectsComponent } from './projects/projects.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HeroComponent,
-    FooterComponent
+    FooterComponent,
+    BioComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
