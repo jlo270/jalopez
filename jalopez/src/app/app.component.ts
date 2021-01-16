@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EasingLogic } from 'ngx-page-scroll-core'
 
 @Component({
   selector: 'app-root',
